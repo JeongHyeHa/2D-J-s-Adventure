@@ -2,14 +2,16 @@ using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
+//using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class NetworkManager
 {
     //// 서버의 IP주소를 사용할 것(내부IP)
-    private string url = "http://localhost:5054/api/scores/";
+    //private string url = "http://localhost:5054/api/scores/";
+    //private string url = "http://cglabhospital.iptime.org:40001/api/scores/";
+    private string url = "http://dduki.iptime.org:40001/api/scores/";
 
     // 특정 ID의 데이터 조회
     public IEnumerator CoGetPlayerById(int userId, System.Action<Score> onSuccess)
@@ -60,7 +62,7 @@ public class NetworkManager
     }
 
     // 성적 업데이트
-    public IEnumerator CoPostScore(int userId, int newScore)
+    public IEnumerator CoPostScore(int userId, int newScore, Action onScoreSaved)
     {
         string jsonData = JsonConvert.SerializeObject(new { user_id = userId, gameScore = newScore });
 
@@ -79,6 +81,7 @@ public class NetworkManager
             else
             {
                 Debug.Log("Score updated successfully!");
+                onScoreSaved?.Invoke();
             }
         }
     }
@@ -132,6 +135,28 @@ public class NetworkManager
             }
         }
     }
+
+    // 점수 상위 10명의 데이터 가져오기
+    public IEnumerator CoGetTop10Scores(Action<List<Score>> onSuccess)
+    {
+        using (UnityWebRequest webRequest = UnityWebRequest.Get($"{url}top10"))
+        {
+            yield return webRequest.SendWebRequest();
+
+            if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
+            {
+                Debug.LogError("Error: " + webRequest.error);
+                onSuccess?.Invoke(null);
+            }
+            else
+            {
+                string jsonResponse = webRequest.downloadHandler.text;
+                List<Score> top10Scores = JsonConvert.DeserializeObject<List<Score>>(jsonResponse);
+                onSuccess?.Invoke(top10Scores);  
+            }
+        }
+    }
+
 
 }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class StartGameManager : MonoBehaviour
 {
@@ -11,13 +12,18 @@ public class StartGameManager : MonoBehaviour
     
     public GameObject startCanvas;
     public GameObject loginUI;
+    public GameObject rankingPanel;
     public Image blackScreen;
     public TextMeshProUGUI startTitleText;
     public TextMeshProUGUI enterText;
     public Button loginCloseButton;
+    public Button rankButton;
+    public Button enterButton;
+    public Button rankingCloseButton;
     public TMP_InputField loginIDInputField;
     public TMP_InputField loginClassInputField;
     public TMP_InputField loginNameInputField;
+    public Animator rankAnim;
 
     private Vector3 targetPosition;         // 목표 위치
     private RectTransform startTransform;
@@ -64,19 +70,32 @@ public class StartGameManager : MonoBehaviour
         
         
         loginCloseButton.onClick.AddListener(OnCloseButtonLogin);
+        rankButton.onClick.AddListener(OpenRankPanel);
+        enterButton.onClick.AddListener(StartGame);
+        rankingCloseButton.onClick.AddListener(CloseRankingPanel);
     }
 
     void Update()
     {
         // 마우스 클릭이 감지되면 로그인 모드
-        if (Input.GetMouseButtonDown(0) && !isGameStarting)
+        //if (Input.GetMouseButtonDown(0) && !isGameStarting)
+        /*if (Input.GetMouseButtonDown(0) && !isGameStarting && !EventSystem.current.IsPointerOverGameObject())
+
         {
             animator.SetBool("startMove", true);
 
             // 로그인 화면으로 전환
             enterText.gameObject.SetActive(false);
             //StartCoroutine(FadeToBlackAndStartGame());
-        }
+        }*/
+    }
+
+    void StartGame()
+    {
+        Debug.Log("버튼이 눌림");
+        animator.SetBool("startMove", true);
+        // 로그인 화면으로 전환
+        enterText.gameObject.SetActive(false);
     }
 
     // 텍스트 애니메이션이 완료된 후 호출될 함수 (Animation Event에서 설정)
@@ -103,7 +122,7 @@ public class StartGameManager : MonoBehaviour
         // 페이드인  완료 후 캔버스를 비활성화하고 게임 시작
         startCanvas.SetActive(false);
 
-        SceneManager.LoadScene("J's Adventure _ver001");
+        SceneManager.LoadScene("J's Adventure");
         isGameStarting = true;
     }
 
@@ -118,5 +137,16 @@ public class StartGameManager : MonoBehaviour
         loginIDInputField.text = "";
         loginClassInputField.text = "";
         loginNameInputField.text = "";
+    }
+
+    void OpenRankPanel()
+    {
+        //rankingPanel.SetActive(true);
+        rankAnim.SetBool("isPopup", true);
+    }
+
+    void CloseRankingPanel()
+    {
+        rankAnim.SetBool("isPopup", false);
     }
 }

@@ -9,14 +9,15 @@ public class CountdownTimer : MonoBehaviour
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI gameoverText;
     GameManager gameManager;
+    GoalCollision goalCollision;
 
-    private float timeRemaining = 120f; // 120초 (2분)
+    public float timeRemaining = 120f; // 120초 (2분)
+    bool isCountdownEnded = false;
 
     void Start()
     {
-        timerText = GameObject.Find("TimerText").GetComponent<TextMeshProUGUI>();
-        gameoverText = GameObject.Find("GameoverText").GetComponent<TextMeshProUGUI>();
         gameManager = FindObjectOfType<GameManager>();
+        goalCollision = FindObjectOfType<GoalCollision>();
 
         // 초기 텍스트 설정
         timerText.text = Mathf.RoundToInt(timeRemaining).ToString();
@@ -26,7 +27,7 @@ public class CountdownTimer : MonoBehaviour
 
     void Update()
     {
-        if (timeRemaining > 0 && !gameManager.isDead)
+        if (timeRemaining > 0 && !gameManager.isDead || timeRemaining > 0 &&  !goalCollision.isGoalin)
         {
             timeRemaining -= Time.deltaTime;
 
@@ -43,22 +44,14 @@ public class CountdownTimer : MonoBehaviour
                 timerText.text = displayTime.ToString();
             }
         }
-        else 
+        else if(!isCountdownEnded && timeRemaining <= 0)
         {
+            isCountdownEnded = true;
             // 시간이 다 되었을 때 처리
             timeRemaining = 0;
             timerText.text = "0";
             gameManager.isDead = true;
-            OnCountdownEnd();
+            gameManager.LoseLife();
         }
-    }
-
-    // 카운트다운이 끝났을 때 실행될 동작
-    void OnCountdownEnd()
-    {
-        Debug.Log("Countdown has ended!");
-        timerText.text = "";
-        gameManager.isDead = true;
-        // 추가적인 처리 가능 (예: 게임 종료, 이벤트 트리거 등)
     }
 }

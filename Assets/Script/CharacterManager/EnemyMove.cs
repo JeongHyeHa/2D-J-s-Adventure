@@ -10,7 +10,7 @@ public class EnemyMove : MonoBehaviour
     public GameManager gameManager;
 
     public int nextmove;
-    public float detectionRange = 5;    // 플레이어를 추적하는 거리
+    public float detectionRange = 10;    // 플레이어를 추적하는 거리
     public float stopChasingRange = 6f;    // 추적을 멈추는 거리
     public bool isChasing = false;      // 추적 상태 관리
 

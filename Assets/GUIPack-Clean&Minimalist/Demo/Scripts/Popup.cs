@@ -17,10 +17,14 @@ namespace Ricimi
         public float destroyTime = 0.5f;
 
         private GameObject m_background;
+        public ScrollRect scrollRect;
 
         public void Open()
         {
             AddBackground();
+
+            scrollRect.verticalNormalizedPosition = 0f; // 스크롤을 맨 위로 유지
+            gameObject.SetActive(true);
         }
 
         public void Close()
@@ -40,8 +44,10 @@ namespace Ricimi
         private IEnumerator RunPopupDestroy()
         {
             yield return new WaitForSeconds(destroyTime);
-            Destroy(m_background);
-            Destroy(gameObject);
+            /*Destroy(m_background);
+            Destroy(gameObject);*/
+            //m_background.SetActive(false);  // 배경 비활성화
+            gameObject.SetActive(false);    // 팝업 비활성화
         }
 
         private void AddBackground()
@@ -72,9 +78,9 @@ namespace Ricimi
 
         private void RemoveBackground()
         {
-            var image = m_background.GetComponent<Image>();
+            /*var image = m_background.GetComponent<Image>();
             if (image != null)
-                image.CrossFadeAlpha(0.0f, 0.2f, false);
+                image.CrossFadeAlpha(0.0f, 0.2f, false);*/
         }
     }
 }

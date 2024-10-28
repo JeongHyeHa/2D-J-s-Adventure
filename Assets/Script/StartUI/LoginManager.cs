@@ -94,7 +94,7 @@ public class LoginManager : MonoBehaviour
         audioSource.Play(); 
 
         userId = loginIDInputField.text.Trim();
-        department = loginClassInputField.text.Trim();
+        department = loginClassInputField.text.Trim().ToLower();
         userName = loginNameInputField.text.Trim();
 
         if (string.IsNullOrEmpty(userId))

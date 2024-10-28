@@ -24,6 +24,7 @@ public class EnemyDie : MonoBehaviour
     public void OnDamaged()
     {
         anim.SetTrigger("Dead");
+        boxcollider.enabled = false;
         audioSource.PlayOneShot(monsterDie);
         
         //Sprite Alpha

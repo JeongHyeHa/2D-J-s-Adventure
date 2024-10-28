@@ -31,6 +31,33 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        HandleMovement();
+        HandleJump();
+    }
+
+    void HandleMovement()
+    {
+        float move = Input.GetAxisRaw("Horizontal");
+
+        // Move
+        if (move != 0)
+        {
+            rigid.velocity = new Vector2(move * maxSpeed, rigid.velocity.y);
+            spriteRenderer.flipX = move == -1;
+        }
+            
+        // Stop Speed 
+        if (Input.GetButtonUp("Horizontal"))
+        {
+            rigid.velocity = new Vector2(0, rigid.velocity.y);
+        }
+
+        // Animator
+        playerAnim.SetFloat("running", Mathf.Abs(move));
+    }
+
+    void HandleJump()
+    {
         // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -39,35 +66,10 @@ public class PlayerController : MonoBehaviour
             audioSource.PlayOneShot(jumpSound);
             isGrounded = false;
         }
-
-        // Stop Speed
-        if (Input.GetButtonUp("Horizontal"))
-        {
-            rigid.velocity = new Vector2(rigid.velocity.normalized.x * 0.1f, rigid.velocity.y);
-        }
-
-        // Direction Sprite
-
-        float move = Input.GetAxisRaw("Horizontal");
-        if (move != 0)
-            spriteRenderer.flipX = move == -1;
-
-        // Animator
-        playerAnim.SetFloat("running", Mathf.Abs(move));
     }
 
     private void FixedUpdate()
     {
-        // Move Speed
-        float h = Input.GetAxisRaw("Horizontal");
-        rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
-
-        // Max Speed
-        if (rigid.velocity.x > maxSpeed)
-            rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
-        else if (rigid.velocity.x < -maxSpeed)
-            rigid.velocity = new Vector2(-maxSpeed, rigid.velocity.y);
-    
         // mapGround
         Debug.DrawRay(rigid.position, Vector3.down, Color.yellow);
         RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Ground", "BearGround"));
@@ -92,13 +94,13 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
             //Atack
-            if(rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y)
+            if(rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y + 0.5f)
             {
                 EnemyDie enemyDie = collision.transform.GetComponent<EnemyDie>();   
                 enemyDie.OnDamaged();
 
                 //Reaction Force
-                rigid.AddForce(Vector2.up*10, ForceMode2D.Impulse);
+                rigid.AddForce(Vector2.up*15, ForceMode2D.Impulse);
 
                 //Point
                 bool isFrog = collision.gameObject.name.Contains("Frog");
@@ -111,11 +113,11 @@ public class PlayerController : MonoBehaviour
                     gameManager.gameScore += 10;
                 else
                     gameManager.gameScore += 1;
+
                 gameManager.UpdateScoreUI();
             }
             else  //Damaged
             {
-                //gameManager.LoseLife(collision.transform.position);
                 if (gameManager.playerLives > 1)
                 {
                     gameManager.LoseLifeWithPosition(collision.transform.position);  

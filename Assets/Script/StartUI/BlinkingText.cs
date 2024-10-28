@@ -7,6 +7,7 @@ public class BlinkingText : MonoBehaviour
 {
     public TextMeshProUGUI uiText;  // Unity의 Text UI 컴포넌트
     public float blinkInterval = 0.7f;  // 깜빡이는 간격(초 단위)
+    public Button button;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class BlinkingText : MonoBehaviour
         {
             StartCoroutine(BlinkText());
         }
+        button.interactable = true;
     }
 
     IEnumerator BlinkText()

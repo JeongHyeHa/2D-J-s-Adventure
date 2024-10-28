@@ -12,13 +12,15 @@ public class Bat : MonoBehaviour
     public float flySpeed = 2f;            // 날아가는 속도
     
     private bool isChasing = false;        // 추적 상태 플래그
-    private Animator animator;            
+    private Animator animator;
+    SpriteRenderer spriteRenderer;
 
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate()
@@ -52,9 +54,6 @@ public class Bat : MonoBehaviour
             else if (distance >= stopChasingRange && isChasing)
             {
                 isChasing = false;
-                
-                if(CheckIfCanHang())
-                    animator.SetBool("flying", false);
             }
         }
     }
@@ -67,26 +66,18 @@ public class Bat : MonoBehaviour
             // 플레이어를 향한 방향 벡터 계산
             Vector3 direction = (player.transform.position - transform.position).normalized;
 
+            // 방향에 따라 스프라이트를 좌우로 뒤집기
+            if (direction.x > 0)
+            {
+                spriteRenderer.flipX = false;  // 플레이어가 오른쪽에 있을 때
+            }
+            else if (direction.x < 0)
+            {
+                spriteRenderer.flipX = true;   // 플레이어가 왼쪽에 있을 때
+            }
+
             // 플레이어 방향으로 이동
             rigid.velocity = new Vector2(direction.x * flySpeed, direction.y * flySpeed);
         }
-    }
-
-    private bool CheckIfCanHang()
-    {
-        // 박쥐 머리 위로 Raycast를 쏘아서 위에 있는 지형을 확인
-        Vector2 rayOrigin = new Vector2(rigid.position.x, rigid.position.y);
-        RaycastHit2D rayHit = Physics2D.Raycast(rayOrigin, Vector2.up, 1.0f, LayerMask.GetMask("Ground"));
-
-        Debug.DrawRay(rayOrigin, Vector2.up * 1.0f, Color.green); // 시각적으로 Ray를 그리기
-
-        // 만약 "Ground" 레이어와 충돌했다면 true 반환 (매달릴 수 있음)
-        if (rayHit.collider != null)
-        {
-            return true;
-        }
-
-        // 매달릴 지형이 없으면 false 반환
-        return false;
     }
 }
