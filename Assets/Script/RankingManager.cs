@@ -48,7 +48,8 @@ public class RankingManager : MonoBehaviour
             itemController.SetItemData(i + 1, top10Scores[i].user_name, top10Scores[i].department, tryCount, score);
         }
 
-        scrollRect.verticalNormalizedPosition = 0f;
+        //scrollRect.verticalNormalizedPosition = 0f;
+        scrollRect.normalizedPosition = new Vector2(0, 1);
     }
 
     public void OnRestartGame()

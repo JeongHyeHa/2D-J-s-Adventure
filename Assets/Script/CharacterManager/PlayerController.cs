@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour
                 enemyDie.OnDamaged();
 
                 //Reaction Force
-                rigid.AddForce(Vector2.up*15, ForceMode2D.Impulse);
+                rigid.AddForce(Vector2.up*16, ForceMode2D.Impulse);
 
                 //Point
                 bool isFrog = collision.gameObject.name.Contains("Frog");

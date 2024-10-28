@@ -92,7 +92,6 @@ public class StartGameManager : MonoBehaviour
 
     void StartGame()
     {
-        Debug.Log("버튼이 눌림");
         animator.SetBool("startMove", true);
         // 로그인 화면으로 전환
         enterText.gameObject.SetActive(false);

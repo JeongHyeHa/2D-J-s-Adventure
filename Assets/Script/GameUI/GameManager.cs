@@ -125,6 +125,7 @@ public class GameManager : MonoBehaviour
             //플레이어 죽음 처리
             player.layer = 11;
             spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+            rigid.velocity = Vector2.zero;
 
             //게임오버 모드로 전환
             gameoverText.gameObject.SetActive(true);
@@ -153,6 +154,8 @@ public class GameManager : MonoBehaviour
         {
             playerLives--;
             heartImages[playerLives].enabled = false;
+            gameScore -= 5;
+            UpdateScoreUI();
             OnDamaged(targetPos);
         }
     }

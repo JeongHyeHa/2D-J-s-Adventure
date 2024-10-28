@@ -148,7 +148,10 @@ public class LoginManager : MonoBehaviour
                     Instance.trycount = newPlayer.tryCount;
                     Instance.userScore = newPlayer.user_score;
                     Debug.Log($"회원가입: {userId}, {department}, {userName}, {trycount}, {userScore}");
-                    
+
+                    // 시도횟수 +1
+                    StartCoroutine(networkManager.CoPostTryCount(int.Parse(userId), ++trycount));
+
                     SceneManager.LoadScene("J's Adventure");
                 }));
             }
