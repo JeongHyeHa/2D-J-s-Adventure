@@ -73,6 +73,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
 
 # ❗️ DMCA로 문제가 된 GUI Pack 폴더 무시
 Assets/DoNotUpload/
+=======
+>>>>>>> a2833d6926533c2a21d2890ea6ed0dc8cd1413a4
