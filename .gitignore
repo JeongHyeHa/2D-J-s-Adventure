@@ -25,9 +25,12 @@ ProjectSettings/EditorBuildSettings.asset
 ProjectSettings/QualitySettings.asset
 ProjectSettings/ProjectSettings.asset
 Recordings/*.mp4
+UserSettings/
+*.apk
 
 # Visual Studio / MonoDevelop project files
 .vscode/
+.idea/
 *.csproj
 *.unityproj
 *.sln
@@ -54,8 +57,12 @@ Recordings/*.mp4
 *.temp
 *.blend1
 
-# Ignore Visual Studio folder
-.vs/
-
 # Ignore Unity generated metadata files
 *.pidb.meta
+
+# macOS & Windows 시스템 파일
+.DS_Store
+Thumbs.db
+
+# ❗️ DMCA로 문제가 된 GUI Pack 폴더 무시
+Assets/DoNotUpload/

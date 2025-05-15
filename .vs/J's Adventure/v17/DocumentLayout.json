@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\LoginManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\StartUI\\LoginManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|c:\\users\\user\\game-development\\j\u0027s adventure\\assets\\script\\startui\\startgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\startui\\startgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\CharacterManager\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\gameui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameui\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\rankingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rankingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\trip\\goalcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trip\\goalcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EnemyDie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\CharacterManager\\EnemyDie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EnemyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\CharacterManager\\EnemyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\gameui\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameui\\countdowntimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\charactermanager\\batmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\charactermanager\\batmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\guipack-clean\u0026minimalist\\demo\\scripts\\popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\guipack-clean\u0026minimalist\\demo\\scripts\\popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\itemuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\itemuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\BlinkingText.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\StartUI\\BlinkingText.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\trip\\jumpobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trip\\jumpobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EagleMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\CharacterManager\\EagleMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\assets\\script\\trip\\alternatingterrainmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trip\\alternatingterrainmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\EagleTriggerPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\Trip\\EagleTriggerPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\BearMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8640059-ECC2-FDEA-9458-CFBD22FF19CD}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\CharacterManager\\BearMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoalCollision.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\GoalCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Trip\\GoalCollision.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\GoalCollision.cs",
+              "RelativeToolTip": "Assets\\Script\\Trip\\GoalCollision.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAuwEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:37:00.195Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CountdownTimer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\GameUI\\CountdownTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameUI\\CountdownTimer.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\GameUI\\CountdownTimer.cs",
+              "RelativeToolTip": "Assets\\Script\\GameUI\\CountdownTimer.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:45:19.881Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\GameUI\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameUI\\GameManager.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\GameUI\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameUI\\GameManager.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAvwJ0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T11:54:18.863Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterManager\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterManager\\PlayerController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAiwGYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:09:36.075Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\StartGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StartUI\\StartGameManager.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\StartGameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\StartUI\\StartGameManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwGoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:37:05.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AlternatingTerrainMover.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\AlternatingTerrainMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Trip\\AlternatingTerrainMover.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\AlternatingTerrainMover.cs",
+              "RelativeToolTip": "Assets\\Script\\Trip\\AlternatingTerrainMover.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:28:09.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StartUI\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\LoginManager.cs",
+              "RelativeToolTip": "Assets\\Script\\StartUI\\LoginManager.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAApwK8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:34:28.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RankingManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\RankingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RankingManager.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\RankingManager.cs",
+              "RelativeToolTip": "Assets\\Script\\RankingManager.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAwDMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:06:01.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemUIController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\ItemUIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ItemUIController.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\ItemUIController.cs",
+              "RelativeToolTip": "Assets\\Script\\ItemUIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:13:03.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Popup.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\GUIPack-Clean\u0026Minimalist\\Demo\\Scripts\\Popup.cs",
+              "RelativeDocumentMoniker": "Assets\\GUIPack-Clean\u0026Minimalist\\Demo\\Scripts\\Popup.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\GUIPack-Clean\u0026Minimalist\\Demo\\Scripts\\Popup.cs",
+              "RelativeToolTip": "Assets\\GUIPack-Clean\u0026Minimalist\\Demo\\Scripts\\Popup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T16:36:52.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BatMove.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\BatMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterManager\\BatMove.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\BatMove.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterManager\\BatMove.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:00:50.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-16T01:25:47.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlinkingText.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\BlinkingText.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StartUI\\BlinkingText.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\StartUI\\BlinkingText.cs",
+              "RelativeToolTip": "Assets\\Script\\StartUI\\BlinkingText.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA0wAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:52:48.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Script\\NetworkManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:34:15.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JumpObjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\JumpObjectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Trip\\JumpObjectManager.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\JumpObjectManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Trip\\JumpObjectManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:19:29.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyDie.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EnemyDie.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterManager\\EnemyDie.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EnemyDie.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterManager\\EnemyDie.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:34:46.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EagleTriggerPoint.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\EagleTriggerPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Trip\\EagleTriggerPoint.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\Trip\\EagleTriggerPoint.cs",
+              "RelativeToolTip": "Assets\\Script\\Trip\\EagleTriggerPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:43:13.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EagleMove.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EagleMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterManager\\EagleMove.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EagleMove.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterManager\\EagleMove.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:19:21.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BearMove.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\BearMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterManager\\BearMove.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\BearMove.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterManager\\BearMove.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:17:14.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyMove.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EnemyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacterManager\\EnemyMove.cs",
+              "ToolTip": "C:\\Users\\User\\Game-Development\\J\u0027s Adventure\\Assets\\Script\\CharacterManager\\EnemyMove.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacterManager\\EnemyMove.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwCsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:14:06.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
